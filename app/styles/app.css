@@ -24,6 +24,14 @@ footer {
   text-align: center;
 }
 
+/*.jumbotron {
+  background-image: url('./../../assets/images/gavel.jpg');
+  background-position: center;
+  color: brown;
+}*/
+
+.container {
+}
 
 
 
