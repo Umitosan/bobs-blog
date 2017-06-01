@@ -3,18 +3,18 @@
   <div>
     <form>
       <div class="form-group">
-        <label for="title">Title</label>
+        <label for="title">Title</label><br>
         {{input value=title id="title"}}
       </div>
 
       <div class="form-group">
-        <label for="body">Body</label>
+        <label for="body">Body</label><br>
         {{textarea value=body id="body"}}
       </div>
 
-      <button {{action 'savePost'}}>Save</button>
+      <button class="btn btn-default btn-sm" {{action 'savePost'}} >Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'postFormShow'}}>New Post</button>
+  <button class="btn btn-default btn-sm" {{action 'postFormShow'}}>New Post</button>
 {{/if}}

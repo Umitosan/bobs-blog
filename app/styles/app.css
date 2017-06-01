@@ -1,6 +1,15 @@
-#title {
+#main_title {
   text-align: center;
   font-size: 50px;
+}
+
+.ember-view {
+  background-color: #d2dbd8;
+}
+
+.jumbotron {
+  background-color: #444;
+  color: #d2dbd8;
 }
 
 footer {
@@ -24,14 +33,6 @@ footer {
   text-align: center;
 }
 
-/*.jumbotron {
-  background-image: url('./../../assets/images/gavel.jpg');
-  background-position: center;
-  color: brown;
-}*/
-
-.container {
-}
 
 
 
@@ -48,7 +49,7 @@ footer {
 
 .nav ul {
   list-style: none;
-  background-color: #444;
+  background-color: #99ad95;
   text-align: center;
   padding: 0;
   margin: 0;

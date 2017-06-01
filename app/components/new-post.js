@@ -7,7 +7,6 @@ export default Ember.Component.extend({
       this.set('title', '');
       this.set('body', '');
       this.set('addNewPost', true);
-
     },
 
     savePost() {

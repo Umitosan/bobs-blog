@@ -1,8 +1,3 @@
 <li>
-  {{post.title}}
-  <p>{{post.body}}</p>
+  <h4>{{#link-to 'post' post.id}}{{post.title}} {{/link-to}}</h4>
 </li>
-
-{{update-post post=post update="update"}}
-
-<button {{action 'delete' post}}>Delete</button>
