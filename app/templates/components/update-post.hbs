@@ -1,0 +1,19 @@
+{{#if updatePostForm}}
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="title">Owner</label>
+        {{input value=title id="title" placeholder=post.title}}
+      </div>
+
+      <div class="form-group">
+        <label for="body">Body</label>
+        {{textarea value=body id="body" placeholder=post.body}}
+      </div>
+
+      <button {{action 'update' post}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'updatePostForm'}}>Update</button>
+{{/if}}
