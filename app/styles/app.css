@@ -3,13 +3,13 @@
   font-size: 50px;
 }
 
-.ember-view {
+/*.ember-view {
   background-color: #d2dbd8;
-}
+}*/
 
 .jumbotron {
   background-color: #444;
-  color: #d2dbd8;
+  color: white;
 }
 
 footer {
@@ -32,11 +32,6 @@ footer {
 .video {
   text-align: center;
 }
-
-
-
-
-
 
 
 
