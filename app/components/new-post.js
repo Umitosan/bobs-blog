@@ -4,7 +4,10 @@ export default Ember.Component.extend({
   addNewPost: false,
   actions: {
     postFormShow() {
+      this.set('title', '');
+      this.set('body', '');
       this.set('addNewPost', true);
+
     },
 
     savePost() {
