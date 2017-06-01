@@ -8,11 +8,11 @@ export default Ember.Component.extend({
       this.set('content', '');
       this.set('addNewComment', true);
     },
-
     saveComment() {
       var params = {
         author: this.get('author'),
-        content: this.get('content')
+        content: this.get('content'),
+        post: this.get('post')
       };
       this.set('addNewComment', false);
       this.sendAction('saveComment', params);

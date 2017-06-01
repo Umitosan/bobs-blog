@@ -8,16 +8,6 @@
       {{/each}}
     </ul>
 
-    <h2> All Comments </h2>
-
-    <ul>
-      {{#each model.comments as |comment|}}
-        <li>{{comment.content}} - by {{comment.author}}</li>
-      {{/each}}
-    </ul>
-
-    {{new-comment saveComment="saveComment"}}
-
   </div>
   <div class="col-md-6">
     <h2>Write New Post</h2>

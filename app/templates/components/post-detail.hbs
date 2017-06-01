@@ -2,3 +2,10 @@
 <p>{{post.body}}</p>
 
 <button class="btn btn-default btn-sm" {{action 'delete' post}}>Delete</button>
+
+<h2> Comments </h2>
+<ul>
+  {{#each post.comments as |comment|}}
+    <li> {{comment.content}} - by {{comment.author}} </li>
+  {{/each}}
+</ul>
